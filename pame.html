@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para mi unica princesa</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #fce4ec;
+            color: #5b3b4c;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        .container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            max-width: 600px;
+            animation: fadeIn 3s ease;
+        }
+
+        h1 {
+            font-size: 3em;
+            color: #4c4044;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            color: #4c4044;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            font-size: 1.1em;
+        }
+
+        ul li {
+            margin: 10px 0;
+            background-color: #f8bbd0;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        img {
+            width: 150px;
+            height: 150px;
+            object-fit: contain;
+            border-radius: 50%;
+            margin-top: 20px;
+            animation: pulse 4s infinite;
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #d81b60;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 1.2em;
+            animation: bounce 2s infinite;
+        }
+
+        button:hover {
+            background-color: #ad1457;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.1);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        @keyframes bounce {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>¡Buenas noches mi princesa!</h1>
+    <h2>Hice una pagina un poco cutre pero es mi cariño</h2>
+    <p>bueno gracias por estudiar conmigo ,esta pagina esta colgada en internet y solo la veras tu 
+        , solo queria decirte lo especial e importante que eres , me lo estas demostrando cada dia y soy 
+        afortunado de tener a alguien asi conmigo asi que gracias
+    </p>
+    
+    <ul>
+        <li>eres hermosa , como un sol radiante 🌟</li>
+        <li>amable y diligente en lo que hace 💗</li>
+        <li>unica en su tipo , alegras mi triste vida😊</li>
+        <li>por eso y mucho mas es que me gustas </li>
+    </ul>
+
+    <img src="pam.jpg" alt="Un corazón especial para ti">
+    
+    <button onclick="showLove()">Hazme clic</button>
+
+</div>
+
+<script>
+    function showLove() {
+        alert('¡que eres una persona especial ,una persona maravillosa y alguien unica para su tonto creador! 🥹');
+    }
+</script>
+
+</body>
+</html>
